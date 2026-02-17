@@ -6,10 +6,9 @@ public class MainLista {
 
         GrafoLista grafo = new GrafoLista(4);
 
-        grafo.agregarArista(0, 1);
-        grafo.agregarArista(0, 2);
-        grafo.agregarArista(1, 2);
-        grafo.agregarArista(2, 3);
+        grafo.agregarArista(0, 1); //A->B
+        grafo.agregarArista(0, 2); //A->C
+        grafo.agregarArista(1, 3); //B->D
 
         grafo.mostrarLista();
     }
